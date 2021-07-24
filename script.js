@@ -59,3 +59,11 @@ $(function() {
     $('#text').html('<a href="https://prog-8.com/">ようこそ、Progateへ</a>');
   });
 });
+
+$(function() {
+  // 「.list-item」要素に対するclickイベントを作成してください
+  $('.list-item').click(function() {
+    $(this).css('color','red');
+  })
+  
+});
